@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" id="owG-xh-Mal">
-                                <rect key="frame" x="0.0" y="120" width="480" height="216"/>
+                                <rect key="frame" x="0.0" y="129" width="480" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="408520899.02553302">
                                     <!--2013-12-12 06:01:39 +0000-->
                                 </date>
@@ -117,20 +117,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <point key="canvasLocation" x="511" y="21"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="ListAlarmTableViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListAlarmTableViewController.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="ctrlDatePicker:"/>
-                <relationship kind="action" name="deside_down:"/>
-                <relationship kind="outlet" name="setDatePicker" candidateClass="UIDatePicker"/>
-                <relationship kind="outlet" name="viewLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
