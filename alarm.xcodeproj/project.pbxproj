@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B5F7A98186BE4FC0009D341 /* ListAlarmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F7A97186BE4FC0009D341 /* ListAlarmTableViewController.m */; };
 		6BA767C818598711006917F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA767C718598711006917F3 /* UIKit.framework */; };
 		6BA767CA18598711006917F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA767C918598711006917F3 /* Foundation.framework */; };
 		6BA767CC18598711006917F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA767CB18598711006917F3 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B5F7A96186BE4FC0009D341 /* ListAlarmTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListAlarmTableViewController.h; sourceTree = "<group>"; };
+		6B5F7A97186BE4FC0009D341 /* ListAlarmTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListAlarmTableViewController.m; sourceTree = "<group>"; };
 		6BA767C418598711006917F3 /* alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA767C718598711006917F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6BA767C918598711006917F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				6BA767D618598711006917F3 /* AppDelegate.h */,
 				6BA767D718598711006917F3 /* AppDelegate.m */,
 				6BA767DF18598711006917F3 /* MainStoryboard.storyboard */,
+				6B5F7A96186BE4FC0009D341 /* ListAlarmTableViewController.h */,
+				6B5F7A97186BE4FC0009D341 /* ListAlarmTableViewController.m */,
 				6BA767E218598711006917F3 /* ViewController.h */,
 				6BA767E318598711006917F3 /* ViewController.m */,
 				6BA767CE18598711006917F3 /* Supporting Files */,
@@ -273,6 +278,7 @@
 				6BA767D418598711006917F3 /* main.m in Sources */,
 				6BA767D818598711006917F3 /* AppDelegate.m in Sources */,
 				6BA767E418598711006917F3 /* ViewController.m in Sources */,
+				6B5F7A98186BE4FC0009D341 /* ListAlarmTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 				6BA767FE18598711006917F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BA767FF18598711006917F3 /* Build configuration list for PBXNativeTarget "alarmTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				6BA7680118598711006917F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

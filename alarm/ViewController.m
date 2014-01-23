@@ -25,5 +25,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)ctrlDatePicker:(id)sender{
+    NSDateFormatter *viewLabelFormatter = [[NSDateFormatter alloc] init];
+    viewLabelFormatter.dateFormat = @"yyyy/MM/dd HH:mm";
+      _viewLabel.text = [viewLabelFormatter stringFromDate:_setDatePicker.date];
+}
+-(void)deside_down:(id)sender
+{
+    
+}
 @end
