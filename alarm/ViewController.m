@@ -32,6 +32,6 @@
 }
 -(void)deside_down:(id)sender
 {
-    
+//
 }
 @end
